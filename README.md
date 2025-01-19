@@ -61,17 +61,16 @@ The preprocessing pipeline includes:
 1. Baseline
    - Naive Bayes classifier
 
-2. TF-IDF Based Models
+2. TF-IDF and Tokenization Based Models
    - SGD Classifier
    - SVM
    - LSTM
    - CNN
 
 3. Word2Vec CBOW Based Models
-   - SGD Classifier
-   - SVM
+   - CRNN
    - LSTM
-   - CNN
+   - BiLSTM
 
 ## Benchmark Results
 
