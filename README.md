@@ -17,7 +17,6 @@ This repository contains the implementation of sentiment analysis on Vietnamese 
 ├── single_word_dict.json
 ├── README.md
 └── .gitignore
-```
 
 ## Dataset
 
