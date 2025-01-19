@@ -3,7 +3,7 @@
 This repository contains the implementation of sentiment analysis on Vietnamese technical reviews as part of a Web Mining course project. The analysis focuses on classifying Vietnamese reviews into positive, negative, or neutral sentiments.
 
 ## Project Structure 
-
+```
 |── data_preprocessing/
 │ ├── train.csv
 │ ├── test.csv
@@ -17,6 +17,7 @@ This repository contains the implementation of sentiment analysis on Vietnamese 
 ├── single_word_dict.json
 ├── README.md
 └── .gitignore
+```
 
 ## Dataset
 
