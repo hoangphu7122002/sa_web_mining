@@ -3,9 +3,10 @@
 # *.csv
 vlsp/*.bin
 
-# Dictionary files
-single_word_dict.json
-teencode.txt
+
+# # Dictionary files
+# single_word_dict.json
+# teencode.txt
 
 # Python
 __pycache__/
