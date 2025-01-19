@@ -1,0 +1,8 @@
+python>=3.8
+underthesea
+scikit-learn
+tensorflow
+gensim
+numpy
+pandas
+xgboost
