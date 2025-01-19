@@ -119,6 +119,75 @@ pandas
 xgboost
 ```
 
+## Conclusions and Future Work
+
+
+
+Based on our experimental results, we can draw several key conclusions:
+
+
+
+1. **Best Performing Model**: TF-IDF + SGD with diacritics version shows the most promising results, balancing both performance and computational efficiency.
+
+
+
+2. **Diacritics Impact**: Models consistently perform better with diacritical marks preserved, suggesting that Vietnamese tone markers carry significant semantic information for sentiment analysis.
+
+
+
+3. **Deep Learning Limitations**: Despite their theoretical capabilities, deep learning models (LSTM, CNN) didn't show superior performance, likely due to:
+
+   - Limited dataset size
+
+   - Class imbalance issues
+
+   - Insufficient training examples for complex pattern recognition
+
+
+
+4. **Resource Constraints**: Our experiments were conducted using Google Colab's T4 GPU, which limited our ability to:
+
+   - Train larger models
+
+   - Perform extensive hyperparameter tuning
+
+   - Test more sophisticated architectures
+
+
+
+## Future Directions
+
+
+
+1. **Data Enhancement**:
+
+   - Expand the dataset through additional crawling
+
+   - Implement data augmentation techniques
+
+   - Improve data quality and balance
+
+
+
+2. **Advanced Models**:
+
+   - Experiment with Vietnamese-specific BERT models
+
+   - Explore LLM-based approaches
+
+   - Investigate transfer learning from larger Vietnamese language models
+
+
+
+3. **Infrastructure**:
+
+   - Scale up computational resources
+
+   - Optimize model architectures for better resource utilization
+
+   - Implement distributed training strategies
+
+
 ## Usage
 
 1. Clone the repository
