@@ -1,7 +1,7 @@
 # VLSP Data files
 # data_preprocessing/*.csv
 # *.csv
-vlsp/*.bin
+dataset/*.bin
 
 
 # # Dictionary files
